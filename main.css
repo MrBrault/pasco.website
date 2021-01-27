@@ -106,3 +106,8 @@ a:hover {
     border: none;
     margin:0 auto;
 }
+.alert {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+}
