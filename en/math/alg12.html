@@ -13,6 +13,30 @@
   <!-- my css -->
     <link rel="stylesheet" href="../../main.css"> 
 
+    
+    
+    <!--JS to load random profile image-->
+   <script type="text/javascript" language="JavaScript">
+<!-- Copyright 2002 Bontrager Connection, LLC
+//
+// Type the number of images you are rotating.
+
+NumberOfImagesToRotate = 13;
+
+// Specify the first and last part of the image tag. 
+
+FirstPart = '<img class="profile" src="http://pasco.website/default/bulldog';
+LastPart = '.jpg">';
+
+function printImage() {
+var r = Math.ceil(Math.random() * NumberOfImagesToRotate);
+document.write(FirstPart + r + LastPart);
+}
+//-->
+</script> 
+    
+    
+    
   </head>
 <body>
     
@@ -67,7 +91,9 @@
             </div>
             <div class="col-sm-3">
                 <a href="mailto:rodavis@psd1.org"><h4>RoeAnn Davis</h4>
-                    <!--<img class="profile" src="profile/">--></a>   
+                    <script type="text/javascript" language="JavaScript"><!--
+                            printImage();
+                        //--></script></a>   
             </div>
             <div class="col-sm-3">
                 <a href="mailto:cmontes@psd1.org"><h4>Constantino Montes</h4>
@@ -78,7 +104,7 @@
             <div class="col-sm-1"></div>
                 <div class="col-sm-3">
                 <a href="mailto:ttkatch@psd1.org"><h4>Trudy Tkach</h4>
-                    <!--<img class="profile" src="profile/">--></a>
+                    <img class="profile" src="profile/tkach.jpg"></a>
             </div>
             <div class="col-sm-3">
                 <a href="mailto:gwhitemarsh@psd1.org"><h4>Gabriela Whitemarsh</h4>
