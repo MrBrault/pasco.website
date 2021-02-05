@@ -9,13 +9,36 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
-    
-    
-    
       
   <!-- my css -->
     <link rel="stylesheet" href="../../main.css"> 
+    
+    
+    
+ <!--JS to load random profile image-->
+   <script type="text/javascript" language="JavaScript">
+<!-- Copyright 2002 Bontrager Connection, LLC
+//
+// Type the number of images you are rotating.
+
+NumberOfImagesToRotate = 13;
+
+// Specify the first and last part of the image tag. 
+
+FirstPart = '<img class="profile" src="http://pasco.website/default/bulldog';
+LastPart = '.jpg">';
+
+function printImage() {
+var r = Math.ceil(Math.random() * NumberOfImagesToRotate);
+document.write(FirstPart + r + LastPart);
+}
+//-->
+</script> 
+    
+    
+    
+    
+    
 
   </head>
 <body>
@@ -58,21 +81,29 @@
         <div class="col-sm-"></div>
             </div><br><br>
 
-            <a href="../index.html"><h1>Main: Special Education PLCs:</h1></a>
+        <a href="index.html"><h1>Special Ed: Career &amp; Community Placement</h1></a>
             <br>
+        <h3>PLC Members</h3>
         <div class="row">
                 <div class="col-sm-4">
-                <a href="ccp.html"><h3>Career &amp; Community Placement</h3></a>   
+                <a href="mailto:pdoyle@psd1.org"><h4>Paullette Doyle</h4>
+                    <img class="profile" src="../../default/en.jpg"></a>
             </div>
             <div class="col-sm-4">
-            <a href="ipela.html"><h3>Individual Placement Language Arts</h3></a>
-            </div>
+                <a href="mailto:jmoyer@psd1.org"><h4>Jacyln Moyer</h4>
+                    <img class="profile" src="../../default/en.jpg"></a>
+                </div>
             <div class="col-sm-4">
-                <a href="ipmath.html"><h3>Individual Placement Math</h3></a>
+                <a href="mailto:megwilliams@psd1.org"><h4>Megan Williams</h4>
+                    <img class="profile" src="profile/williams.jpg"></a>   
             </div>
         </div>
-        <br><br>
-        <a href="../index.html"><h4>&lt; back</h4></a>
+        <br>
+        <h3>PLC Video</h3>
+        <div class="container-wide2">
+        <iframe class="responsive-iframe" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/player/crnhFLRMnS?v=6&ff=1&title=0&controls=1" allowfullscreen="true"></iframe>
+            </div>
+        <a href="index.html"><h4>&lt; back</h4></a>
     </div>
 
 </body>
