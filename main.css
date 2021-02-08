@@ -1,4 +1,4 @@
-.col-sm-3, .col-sm-4, .col-sm-6, .col-sm-12, .col-md-4 {
+.col-sm-3, .col-sm-4, .col-sm-6, .col-sm-12, .col-md-4, .col-lg-4 {
     text-align: center;
     margin-bottom: 25px
 }
@@ -7,7 +7,7 @@
     font-size: 90%;
 }
 
-.nav-item{
+.nav-item {
     color: white;
 }
 .nav-bg {
