@@ -13,8 +13,30 @@
     
     
   <!-- my css -->
-    <link rel="stylesheet" href="../main.css"> 
+    <link rel="stylesheet" href="../../main.css"> 
 
+    
+    
+    
+    <!--JS to load random profile image-->
+   <script type="text/javascript" language="JavaScript">
+<!-- Copyright 2002 Bontrager Connection, LLC
+//
+// Type the number of images you are rotating.
+
+NumberOfImagesToRotate = 13;
+
+// Specify the first and last part of the image tag. 
+
+FirstPart = '<img class="profile" src="http://pasco.website/default/bulldog';
+LastPart = '.jpg">';
+
+function printImage() {
+var r = Math.ceil(Math.random() * NumberOfImagesToRotate);
+document.write(FirstPart + r + LastPart);
+}
+//-->
+</script> 
     
 
     
@@ -58,7 +80,7 @@
     <div class="top-strip"></div>
         <div class="container">
     <div class="row">
-        <div class="col-sm-3"><a href="../index.html"><img class="image" src="../logo.png"></a></div>
+        <div class="col-sm-3"><a href="../index.html"><img class="image" src="../../logo.png"></a></div>
         <div class="col-sm-"></div>
             </div>
     
@@ -66,47 +88,25 @@
     
     
 <br><br>
-            
-        <h1> Please choose the department you would like to explore:</h1>
+
+        <a href="index.html"><h1>CTE: Family &amp; Consumer Sciences</h1></a>
             <br>
+        <h3>PLC Members</h3>
         <div class="row">
-            <div class="col-sm-3">
-            <a href="cte/index.html"><h3>CTE</h3></a>
+                <div class="col-sm-4">
+                <h4>NaCole Grade</h4><img class="profile" src="../../profile/grade.jpg">
+                </div>
+                <div class="col-sm-4">
+                <h4>Lizette Gutierrez</h4><img class="profile" src="../../profile/gutierrez.jpg">
             </div>
-            <div class="col-sm-3">
-                <a href="ela/index.html"><h3>English</h3></a>
-            </div>
-            <div class="col-sm-3">
-                <a href="pe/index.html"><h3>Health &amp; Fitness</h3></a>   
-            </div>
-            <div class="col-sm-3">
-                <a href="math/index.html"><h3>Math</h3></a>
+            <div class="col-sm-4">
+                <h4>Melissa Olmstead</h4><img class="profile" src="../../profile/olmstead.jpg"> 
+                <h5><a href="https://psd1-org.zoom.us/j/85447075234?pwd=QTNoYWEvaUpsYkFTaU5VUkpBdy83Zz09" target="_blank">Zoom</a></h5>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-3">
-            <a href="science/index.html"><h3>Science</h3></a>
-            </div>
-            <div class="col-sm-3">
-                <a href="socialstuds/index.html"><h3>Social Studies</h3></a>
-            </div>
-            <div class="col-sm-3">
-                <a href="sped/index.html"><h3>Special Ed</h3></a>   
-            </div>
-            <div class="col-sm-3">
-                <a href="studentservices/index.html"><h3>Student Services</h3></a>
-            </div>
-        </div>
-            <div class="row">
-                <div class="col-sm-3"></div>
-            <div class="col-sm-3">
-            <a href="vpa/index.html"><h3>Visual &amp; Performing Arts</h3></a>
-            </div>
-            <div class="col-sm-3">
-                <a href="wl/index.html"><h3>World Languages</h3></a>
-            </div>
-            <div class="col-sm-3"></div>
-        </div>
+        <br>
+        
+        <a href="index.html"><h4>&lt; back</h4></a>
     </div>
 
 </body>
