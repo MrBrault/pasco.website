@@ -1,0 +1,36 @@
+.btn {
+    margin-bottom: 10px;
+}
+
+.jumbotron {
+    padding-bottom: 15px;
+    padding-top: 1px;
+    text-align: center;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.row {
+    text-align: center;
+}
+
+body {
+    background-color: #50489D;
+}
+h4 {
+    color: #50489D;
+    font-size: 20px;
+}
+h2 {
+    margin-bottom: 35px;
+    margin-top: -5px;
+    font-size: 45px;
+    text-decoration: underline;
+    text-align: center;
+}
+.well {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
