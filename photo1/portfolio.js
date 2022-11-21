@@ -12,6 +12,8 @@ let anchor = [
     '<a href="../adriana012"><h4>Click here to see another portfolio</h4></a>',
     '<a href="../alexandra499"><h4>Click here to see another portfolio</h4></a>',
     '<a href="../jose107"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../ellie329"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../laiza286"><h4>Click here to see another portfolio</h4></a>',
 ]
 
 var rand = Math.floor(Math.random() * anchor.length);
