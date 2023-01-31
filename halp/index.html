@@ -5,15 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Pasco High School | Halp</title>
-    
+
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
-    
+
     <script>
         var hideAll = function() {
-            document.getElementById("inst-well").classList.add("hidden");
+            document.getElementById("academic-well").classList.add("hidden");
             document.getElementById("behav-well").classList.add("hidden");
             document.getElementById("fac-well").classList.add("hidden");
             document.getElementById("tech-well").classList.add("hidden");
@@ -24,19 +26,23 @@
             document.getElementById("security-well").classList.add("hidden");
             document.getElementById("bis-well").classList.add("hidden");
             document.getElementById("ref-well").classList.add("hidden");
-            document.getElementById("map-well").classList.add("hidden");
             document.getElementById("hotcold-well").classList.add("hidden");
             document.getElementById("mtnc-well").classList.add("hidden");
             document.getElementById("facUse-well").classList.add("hidden");
             document.getElementById("library-well").classList.add("hidden");
             document.getElementById("robocall-well").classList.add("hidden");
+            document.getElementById("extracurr-well").classList.add("hidden");
+            document.getElementById("yb-well").classList.add("hidden");
+            document.getElementById("announce-well").classList.add("hidden");
+            document.getElementById("sharepoint-well").classList.add("hidden");
+            document.getElementById("helpdesk-well").classList.add("hidden");
         }
 
 
-//Step 1 Functions
-        var inst = function() {
+        //Step 1 Functions
+        var academic = function() {
             hideAll()
-            document.getElementById("inst-well").classList.remove("hidden");
+            document.getElementById("academic-well").classList.remove("hidden");
         }
         var behav = function() {
             hideAll()
@@ -50,41 +56,41 @@
             hideAll()
             document.getElementById("tech-well").classList.remove("hidden");
         }
+        var extracurr = function() {
+            hideAll()
+            document.getElementById("extracurr-well").classList.remove("hidden");
+        }
 
 
-//Academic Functions
+        //Academic Functions
         var coaches = function() {
             hideAll()
-            document.getElementById("inst-well").classList.remove("hidden");
+            document.getElementById("academic-well").classList.remove("hidden");
             document.getElementById("coaches-well").classList.remove("hidden");
         }
         var sped = function() {
             hideAll()
-            document.getElementById("inst-well").classList.remove("hidden");
+            document.getElementById("academic-well").classList.remove("hidden");
             document.getElementById("sped-well").classList.remove("hidden");
         }
         var trans = function() {
             hideAll()
-            document.getElementById("inst-well").classList.remove("hidden");
+            document.getElementById("academic-well").classList.remove("hidden");
             document.getElementById("trans-well").classList.remove("hidden");
         }
         var ml = function() {
             hideAll()
-            document.getElementById("inst-well").classList.remove("hidden");
+            document.getElementById("academic-well").classList.remove("hidden");
             document.getElementById("ml-well").classList.remove("hidden");
         }
         var library = function() {
             hideAll()
-            document.getElementById("inst-well").classList.remove("hidden");
+            document.getElementById("academic-well").classList.remove("hidden");
             document.getElementById("library-well").classList.remove("hidden");
         }
-        var robocall = function() {
-            hideAll()
-            document.getElementById("inst-well").classList.remove("hidden");
-            document.getElementById("robocall-well").classList.remove("hidden");
-        }
 
-//Behavior Functions
+
+        //Behavior Functions
         var security = function() {
             hideAll()
             document.getElementById("behav-well").classList.remove("hidden");
@@ -101,12 +107,8 @@
             document.getElementById("ref-well").classList.remove("hidden");
         }
 
-//Facility Functions
-        var map = function() {
-            hideAll()
-            document.getElementById("fac-well").classList.remove("hidden");
-            document.getElementById("map-well").classList.remove("hidden");
-        }
+
+        //Facility Functions
         var hotcold = function() {
             hideAll()
             document.getElementById("fac-well").classList.remove("hidden");
@@ -121,6 +123,37 @@
             hideAll()
             document.getElementById("fac-well").classList.remove("hidden");
             document.getElementById("facUse-well").classList.remove("hidden");
+        }
+
+
+        //Tech Functions
+        var helpdesk = function() {
+            hideAll()
+            document.getElementById("tech-well").classList.remove("hidden");
+            document.getElementById("helpdesk-well").classList.remove("hidden");
+        }
+        var robocall = function() {
+            hideAll()
+            document.getElementById("tech-well").classList.remove("hidden");
+            document.getElementById("robocall-well").classList.remove("hidden");
+        }
+
+
+        //Extra Curricular Functions
+        var yb = function() {
+            hideAll()
+            document.getElementById("extracurr-well").classList.remove("hidden");
+            document.getElementById("yb-well").classList.remove("hidden");
+        }
+        var announce = function() {
+            hideAll()
+            document.getElementById("extracurr-well").classList.remove("hidden");
+            document.getElementById("announce-well").classList.remove("hidden");
+        }
+        var sharepoint = function() {
+            hideAll()
+            document.getElementById("extracurr-well").classList.remove("hidden");
+            document.getElementById("sharepoint-well").classList.remove("hidden");
         }
 
     </script>
@@ -148,18 +181,18 @@
 
         <div class="well" id="step1">
             <h2>What do you need help with?</h2>
-            <button class="btn btn-primary" id="inst-btn" onclick="inst()">Academic</button>
+            <button class="btn btn-primary" id="academic-btn" onclick="academic()">Academic</button>
             <button class="btn btn-primary" id="behav-btn" onclick="behav()">Behavioral</button>
             <button class="btn btn-primary" id="fac-btn" onclick="fac()">Facility</button>
             <button class="btn btn-primary" id="tech-btn" onclick="tech()">Technology</button>
+            <button class="btn btn-primary" id="extracurr-btn" onclick="extracurr()">Extra Curricular</button>
 
-            <div class="well hidden" id="inst-well">
+            <div class="well hidden" id="academic-well">
                 <button class="btn btn-primary" id="coaches-btn" onclick="coaches()">Instructional Coaches</button>
                 <button class="btn btn-primary" id="sped-btn" onclick="sped()">Special Education</button>
                 <button class="btn btn-primary" id="ml-btn" onclick="ml()">Multilingual</button>
                 <button class="btn btn-primary" id="trans-btn" onclick="trans()">Translation</button>
                 <button class="btn btn-primary" id="library-btn" onclick="library()">Library Request</button>
-                <button class="btn btn-primary" id="robocall-btn" onclick="robocall()">Robocall</button>
 
 
                 <div class="well hidden" id="coaches-well">
@@ -188,14 +221,9 @@
                     <p>Request suplementary materials from the Library.</p>
                     <button class="btn btn-success" id="library-help-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHeCldGtNA4xLmiLfM0XeI29URE9NMktUMDVNWUFVSFBCQkcyMURZRFlEVC4u','_blank')">Request</button>
                 </div>
-                <div class="well hidden" id="robocall-well">
-                    <h3>Robocall Request</h3>
-                    <p>Request bulk communication to students/families through email, phone, text, Facebook, website, or reader board.</p>
-                    <button class="btn btn-success" id="robocall-help-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHavNeLY6stZPvLk4q4CAP6RUOUZQQTNUNVVVMEZDT1g5SVk5T1VZVk9JUC4u','_blank')">Request</button>
-                </div>
+
 
             </div>
-
 
             <div class="well hidden" id="behav-well">
                 <button class="btn btn-primary" id="security-btn" onclick="security()">Security</button>
@@ -217,21 +245,14 @@
                 </div>
             </div>
 
-
             <div class="well hidden" id="fac-well">
-                <button class="btn btn-primary" id="map-btn" onclick="map()">Campus Map</button>
                 <button class="btn btn-primary" id="hotcold-btn" onclick="hotcold()">Hot/Cold</button>
                 <button class="btn btn-primary" id="mtnc-btn" onclick="mtnc()">Maintenance</button>
                 <button class="btn btn-primary" id="facUse-btn" onclick="facUse()">Facility Use</button>
-                <div class="well hidden" id="map-well">
-                    <h3>Map</h3>
-                    <p>Map of Pasco High School Campus</p>
-                    <button class="btn btn-primary" id="map-btn" onclick="">Map</button>
-                </div>
                 <div class="well hidden" id="hotcold-well">
                     <h3>Hot/cold report</h3>
                     <p>Report an issue with the temperature in your room.</p>
-                    <button class="btn btn-primary" id="hotcold-btn" onclick="">Report</button>
+                    <button class="btn btn-primary" id="hotcold-report-btn" onclick="">Report</button>
                 </div>
                 <div class="well hidden" id="mtnc-well">
                     <h3>Maintenance Request</h3>
@@ -244,12 +265,42 @@
                     <button class="btn btn-success" id="facUse-btn" onclick="window.open('https://www.psd1.org/cms/lib/WA01001055/Centricity/Domain/72/PSD%20Facility%20Use%20Packet%2018-19.pdf','_blank')">Request</button>
                 </div>
             </div>
-            
-            <div class="well hidden" id="tech-well">
-                <h3>Technology</h3>
-                <p>Request help from Helpdesk with any technology needs. Dial 6710 or click below to send an email. Be sure to include your room and computer number.</p>
-                <button class="btn btn-success" id="tech-btn" onclick="window.open('mailto:helpdesk@psd1.org')">Email</button>
 
+            <div class="well hidden" id="tech-well">
+                <button class="btn btn-primary" id="helpdesk-btn" onclick="helpdesk()">Helpdesk</button>
+                <button class="btn btn-primary" id="robocall-btn" onclick="robocall()">Robocall</button>
+
+                <div class="well hidden" id="helpdesk-well">
+                    <h3>Helpdesk</h3>
+                    <p>Request help from Helpdesk with any technology needs. Dial 6710 or click below to send an email. Be sure to include your room and computer number.</p>
+                    <button class="btn btn-success" id="tech-btn" onclick="window.open('mailto:helpdesk@psd1.org')">Email</button>
+                </div>
+                <div class="well hidden" id="robocall-well">
+                    <h3>Robocall Request</h3>
+                    <p>Request bulk communication to students/families through email, phone, text, Facebook, website, or reader board.</p>
+                    <button class="btn btn-success" id="robocall-help-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHavNeLY6stZPvLk4q4CAP6RUOUZQQTNUNVVVMEZDT1g5SVk5T1VZVk9JUC4u','_blank')">Request</button>
+                </div>
+            </div>
+
+            <div class="well hidden" id="extracurr-well">
+                <button class="btn btn-primary" id="yb-btn" onclick="yb()">Yearbook Coverage</button>
+                <button class="btn btn-primary" id="announce-btn" onclick="announce()">Announcements</button>
+                <button class="btn btn-primary" id="sharepoint-btn" onclick="sharepoint()">Sharepoint</button>
+                <div class="well hidden" id="yb-well">
+                    <h3>Yearbook Coverage</h3>
+                    <p>Request Yearbook coverage of your event.</p>
+                    <button class="btn btn-primary" id="yb-submit-btn" onclick="">Request</button>
+                </div>
+                <div class="well hidden" id="announce-well">
+                    <h3>Announcements</h3>
+                    <p>Submit an announcemnt for the Bulldog Bulletin.</p>
+                    <button class="btn btn-primary" id="announce-submit-btn" onclick="">Submit</button>
+                </div>
+                <div class="well hidden" id="sharepoint-well">
+                    <h3>Sharepoint Request</h3>
+                    <p>Submit information to be posted on Sharepoint.</p>
+                    <button class="btn btn-primary" id="sharepoint-submit-btn" onclick="">Submit</button>
+                </div>
             </div>
         </div>
     </div>
