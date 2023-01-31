@@ -5,10 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Pasco High School | Halp</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+
+    
     <script>
         var hideAll = function() {
             document.getElementById("inst-well").classList.add("hidden");
@@ -25,10 +27,13 @@
             document.getElementById("map-well").classList.add("hidden");
             document.getElementById("hotcold-well").classList.add("hidden");
             document.getElementById("mtnc-well").classList.add("hidden");
+            document.getElementById("facUse-well").classList.add("hidden");
+            document.getElementById("library-well").classList.add("hidden");
+            document.getElementById("robocall-well").classList.add("hidden");
         }
 
 
-
+//Step 1 Functions
         var inst = function() {
             hideAll()
             document.getElementById("inst-well").classList.remove("hidden");
@@ -47,7 +52,7 @@
         }
 
 
-
+//Academic Functions
         var coaches = function() {
             hideAll()
             document.getElementById("inst-well").classList.remove("hidden");
@@ -68,8 +73,18 @@
             document.getElementById("inst-well").classList.remove("hidden");
             document.getElementById("ml-well").classList.remove("hidden");
         }
+        var library = function() {
+            hideAll()
+            document.getElementById("inst-well").classList.remove("hidden");
+            document.getElementById("library-well").classList.remove("hidden");
+        }
+        var robocall = function() {
+            hideAll()
+            document.getElementById("inst-well").classList.remove("hidden");
+            document.getElementById("robocall-well").classList.remove("hidden");
+        }
 
-
+//Behavior Functions
         var security = function() {
             hideAll()
             document.getElementById("behav-well").classList.remove("hidden");
@@ -86,6 +101,7 @@
             document.getElementById("ref-well").classList.remove("hidden");
         }
 
+//Facility Functions
         var map = function() {
             hideAll()
             document.getElementById("fac-well").classList.remove("hidden");
@@ -100,6 +116,11 @@
             hideAll()
             document.getElementById("fac-well").classList.remove("hidden");
             document.getElementById("mtnc-well").classList.remove("hidden");
+        }
+        var facUse = function() {
+            hideAll()
+            document.getElementById("fac-well").classList.remove("hidden");
+            document.getElementById("facUse-well").classList.remove("hidden");
         }
 
     </script>
@@ -135,8 +156,10 @@
             <div class="well hidden" id="inst-well">
                 <button class="btn btn-primary" id="coaches-btn" onclick="coaches()">Instructional Coaches</button>
                 <button class="btn btn-primary" id="sped-btn" onclick="sped()">Special Education</button>
+                <button class="btn btn-primary" id="ml-btn" onclick="ml()">Multilingual</button>
                 <button class="btn btn-primary" id="trans-btn" onclick="trans()">Translation</button>
-                <button class="btn btn-primary" id="ml-btn" onclick="ml()">Multilingual Coordinator</button>
+                <button class="btn btn-primary" id="library-btn" onclick="library()">Library Request</button>
+                <button class="btn btn-primary" id="robocall-btn" onclick="robocall()">Robocall</button>
 
 
                 <div class="well hidden" id="coaches-well">
@@ -152,13 +175,23 @@
                 <div class="well hidden" id="trans-well">
                     <h3>Translation</h3>
                     <p>Request help with getting instructional materials translated.</p>
-                    <button class="btn btn-primary" id="trans-help-btn" onclick="">Spanish</button>
+                    <button class="btn btn-success" id="trans-help-btn" onclick="window.open('https://liveedupsd1.sharepoint.com/:w:/s/PHS/ERdtlqDdd5JHpSBDdINM9q4BdKsT4Wse89j7wBgcQov8iQ?e=zx9zhE','_blank')">Spanish</button>
                     <button class="btn btn-primary" id="trans-help-btn" onclick="">Russian</button>
                 </div>
                 <div class="well hidden" id="ml-well">
                     <h3>Multilingual Coordinator</h3>
                     <p>Request help from the Multilingual Coordinator in with instructional or assessment practices for Multilingual students.</p>
                     <button class="btn btn-primary" id="ml-help-btn" onclick="">Request</button>
+                </div>
+                <div class="well hidden" id="library-well">
+                    <h3>Library Suplementary Materials Request</h3>
+                    <p>Request suplementary materials from the Library.</p>
+                    <button class="btn btn-success" id="library-help-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHeCldGtNA4xLmiLfM0XeI29URE9NMktUMDVNWUFVSFBCQkcyMURZRFlEVC4u','_blank')">Request</button>
+                </div>
+                <div class="well hidden" id="robocall-well">
+                    <h3>Robocall Request</h3>
+                    <p>Request bulk communication to students/families through email, phone, text, Facebook, website, or reader board.</p>
+                    <button class="btn btn-success" id="robocall-help-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHavNeLY6stZPvLk4q4CAP6RUOUZQQTNUNVVVMEZDT1g5SVk5T1VZVk9JUC4u','_blank')">Request</button>
                 </div>
 
             </div>
@@ -180,7 +213,7 @@
                 <div class="well hidden" id="ref-well">
                     <h3>Referral</h3>
                     <p>Referral Flowchart</p>
-                    <button class="btn btn-primary" id="ref-link-btn" onclick="window.open('http://phs.dog/flow','_blank')">Flowchart</button><br><br>
+                    <button class="btn btn-success" id="ref-link-btn" onclick="window.open('http://phs.dog/flow','_blank')">Flowchart</button><br><br>
                 </div>
             </div>
 
@@ -189,6 +222,7 @@
                 <button class="btn btn-primary" id="map-btn" onclick="map()">Campus Map</button>
                 <button class="btn btn-primary" id="hotcold-btn" onclick="hotcold()">Hot/Cold</button>
                 <button class="btn btn-primary" id="mtnc-btn" onclick="mtnc()">Maintenance</button>
+                <button class="btn btn-primary" id="facUse-btn" onclick="facUse()">Facility Use</button>
                 <div class="well hidden" id="map-well">
                     <h3>Map</h3>
                     <p>Map of Pasco High School Campus</p>
@@ -204,12 +238,17 @@
                     <p>Request support from maintenance with facilities or equipment.</p>
                     <button class="btn btn-primary" id="mtnc-btn" onclick="">Request</button>
                 </div>
+                <div class="well hidden" id="facUse-well">
+                    <h3>Facility Use Request</h3>
+                    <p>Request support from maintenance with facilities or equipment.</p>
+                    <button class="btn btn-success" id="facUse-btn" onclick="window.open('https://www.psd1.org/cms/lib/WA01001055/Centricity/Domain/72/PSD%20Facility%20Use%20Packet%2018-19.pdf','_blank')">Request</button>
+                </div>
             </div>
             
             <div class="well hidden" id="tech-well">
                 <h3>Technology</h3>
                 <p>Request help from Helpdesk with any technology needs. Dial 6710 or click below to send an email. Be sure to include your room and computer number.</p>
-                <button class="btn btn-primary" id="tech-btn" onclick="window.open('mailto:helpdesk@psd1.org')">Email</button>
+                <button class="btn btn-success" id="tech-btn" onclick="window.open('mailto:helpdesk@psd1.org')">Email</button>
 
             </div>
         </div>
