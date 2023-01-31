@@ -167,6 +167,14 @@
             display: inherit;
         }
 
+        .btn {
+            margin-bottom: 3px;
+        }
+
+        .subwell {
+            background-color: #e8e8e8
+        }
+
     </style>
 
 </head>
@@ -195,28 +203,28 @@
                 <button class="btn btn-primary" id="library-btn" onclick="library()">Library Request</button>
 
 
-                <div class="well hidden" id="coaches-well">
+                <div class="well subwell hidden" id="coaches-well">
                     <h3>Instructional Coach</h3>
                     <p>Request help from an Instructional Coach with your instructional or assessment questions.</p>
                     <button class="btn btn-primary" id="coaches-help-btn" onclick="">Request</button>
                 </div>
-                <div class="well hidden" id="sped-well">
+                <div class="well subwell hidden" id="sped-well">
                     <h3>Special Education</h3>
                     <p>Request help from a Special Education Teacher with instructional or assessment practices for students receiving Special Education services.</p>
                     <button class="btn btn-primary" id="sped-help-btn" onclick="">Request</button>
                 </div>
-                <div class="well hidden" id="trans-well">
+                <div class="well subwell hidden" id="trans-well">
                     <h3>Translation</h3>
                     <p>Request help with getting instructional materials translated.</p>
                     <button class="btn btn-success" id="trans-help-btn" onclick="window.open('https://liveedupsd1.sharepoint.com/:w:/s/PHS/ERdtlqDdd5JHpSBDdINM9q4BdKsT4Wse89j7wBgcQov8iQ?e=zx9zhE','_blank')">Spanish</button>
                     <button class="btn btn-primary" id="trans-help-btn" onclick="">Russian</button>
                 </div>
-                <div class="well hidden" id="ml-well">
+                <div class="well subwell hidden" id="ml-well">
                     <h3>Multilingual Coordinator</h3>
                     <p>Request help from the Multilingual Coordinator in with instructional or assessment practices for Multilingual students.</p>
                     <button class="btn btn-primary" id="ml-help-btn" onclick="">Request</button>
                 </div>
-                <div class="well hidden" id="library-well">
+                <div class="well subwell hidden" id="library-well">
                     <h3>Library Suplementary Materials Request</h3>
                     <p>Request suplementary materials from the Library.</p>
                     <button class="btn btn-success" id="library-help-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHeCldGtNA4xLmiLfM0XeI29URE9NMktUMDVNWUFVSFBCQkcyMURZRFlEVC4u','_blank')">Request</button>
@@ -229,16 +237,16 @@
                 <button class="btn btn-primary" id="security-btn" onclick="security()">Security</button>
                 <button class="btn btn-primary" id="bis-btn" onclick="bis()">Behavior Specialists</button>
                 <button class="btn btn-primary" id="ref-btn" onclick="ref()">Referral</button>
-                <div class="well hidden" id="security-well">
+                <div class="well subwell hidden" id="security-well">
                     <h3>Security</h3>
                     <p>Call Security - Dial 3575</p><br>
                 </div>
-                <div class="well hidden" id="bis-well">
+                <div class="well subwell hidden" id="bis-well">
                     <h3>Behavior Specialists</h3>
                     <p>Request help from the Behavior Team with classroom management strategies or to reccomend a student for additional behavior supports.</p>
                     <button class="btn btn-primary" id="bis-help-btn" onclick="">Request</button><br><br>
                 </div>
-                <div class="well hidden" id="ref-well">
+                <div class="well subwell hidden" id="ref-well">
                     <h3>Referral</h3>
                     <p>Referral Flowchart</p>
                     <button class="btn btn-success" id="ref-link-btn" onclick="window.open('http://phs.dog/flow','_blank')">Flowchart</button><br><br>
@@ -249,17 +257,17 @@
                 <button class="btn btn-primary" id="hotcold-btn" onclick="hotcold()">Hot/Cold</button>
                 <button class="btn btn-primary" id="mtnc-btn" onclick="mtnc()">Maintenance</button>
                 <button class="btn btn-primary" id="facUse-btn" onclick="facUse()">Facility Use</button>
-                <div class="well hidden" id="hotcold-well">
+                <div class="well subwell hidden" id="hotcold-well">
                     <h3>Hot/cold report</h3>
                     <p>Report an issue with the temperature in your room.</p>
                     <button class="btn btn-primary" id="hotcold-report-btn" onclick="">Report</button>
                 </div>
-                <div class="well hidden" id="mtnc-well">
+                <div class="well subwell hidden" id="mtnc-well">
                     <h3>Maintenance Request</h3>
                     <p>Request support from maintenance with facilities or equipment.</p>
                     <button class="btn btn-primary" id="mtnc-btn" onclick="">Request</button>
                 </div>
-                <div class="well hidden" id="facUse-well">
+                <div class="well subwell hidden" id="facUse-well">
                     <h3>Facility Use Request</h3>
                     <p>Request support from maintenance with facilities or equipment.</p>
                     <button class="btn btn-success" id="facUse-btn" onclick="window.open('https://www.psd1.org/cms/lib/WA01001055/Centricity/Domain/72/PSD%20Facility%20Use%20Packet%2018-19.pdf','_blank')">Request</button>
@@ -270,12 +278,12 @@
                 <button class="btn btn-primary" id="helpdesk-btn" onclick="helpdesk()">Helpdesk</button>
                 <button class="btn btn-primary" id="robocall-btn" onclick="robocall()">Robocall</button>
 
-                <div class="well hidden" id="helpdesk-well">
+                <div class="well subwell hidden" id="helpdesk-well">
                     <h3>Helpdesk</h3>
                     <p>Request help from Helpdesk with any technology needs. Dial 6710 or click below to send an email. Be sure to include your room and computer number.</p>
                     <button class="btn btn-success" id="tech-btn" onclick="window.open('mailto:helpdesk@psd1.org')">Email</button>
                 </div>
-                <div class="well hidden" id="robocall-well">
+                <div class="well subwell hidden" id="robocall-well">
                     <h3>Robocall Request</h3>
                     <p>Request bulk communication to students/families through email, phone, text, Facebook, website, or reader board.</p>
                     <button class="btn btn-success" id="robocall-help-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHavNeLY6stZPvLk4q4CAP6RUOUZQQTNUNVVVMEZDT1g5SVk5T1VZVk9JUC4u','_blank')">Request</button>
@@ -286,17 +294,17 @@
                 <button class="btn btn-primary" id="yb-btn" onclick="yb()">Yearbook Coverage</button>
                 <button class="btn btn-primary" id="announce-btn" onclick="announce()">Announcements</button>
                 <button class="btn btn-primary" id="sharepoint-btn" onclick="sharepoint()">Sharepoint</button>
-                <div class="well hidden" id="yb-well">
+                <div class="well subwell hidden" id="yb-well">
                     <h3>Yearbook Coverage</h3>
                     <p>Request Yearbook coverage of your event.</p>
                     <button class="btn btn-primary" id="yb-submit-btn" onclick="">Request</button>
                 </div>
-                <div class="well hidden" id="announce-well">
+                <div class="well subwell hidden" id="announce-well">
                     <h3>Announcements</h3>
                     <p>Submit an announcemnt for the Bulldog Bulletin.</p>
                     <button class="btn btn-primary" id="announce-submit-btn" onclick="">Submit</button>
                 </div>
-                <div class="well hidden" id="sharepoint-well">
+                <div class="well subwell hidden" id="sharepoint-well">
                     <h3>Sharepoint Request</h3>
                     <p>Submit information to be posted on Sharepoint.</p>
                     <button class="btn btn-primary" id="sharepoint-submit-btn" onclick="">Submit</button>
