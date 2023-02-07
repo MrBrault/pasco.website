@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APIFingerprint</key>
+	<string>b1f9c07722c0569155d4c04e1b8d1dd1</string>
+	<key>APIOrganizationID</key>
+	<string>2198513</string>
+	<key>APIUserID</key>
+	<string>8689103</string>
+	<key>InstallMenubar</key>
+        <true/>
+</dict>
+</plist>
