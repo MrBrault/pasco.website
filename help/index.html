@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Pasco High School | Halp</title>
+    <title>Pasco High School | Help</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -43,6 +43,7 @@
             document.getElementById("instruct-well").classList.add("hidden");
             document.getElementById("norms-well").classList.add("hidden");
             document.getElementById("safe-well").classList.add("hidden");
+            document.getElementById("citizenship-well").classList.add("hidden");
         }
 
 
@@ -150,6 +151,11 @@
             hideAll()
             document.getElementById("behav-well").classList.remove("hidden");
             document.getElementById("norms-well").classList.remove("hidden");
+        }
+        var citizenship = function() {
+            hideAll()
+            document.getElementById("behav-well").classList.remove("hidden");
+            document.getElementById("citizenship-well").classList.remove("hidden");
         }
 
 
@@ -270,7 +276,7 @@
                     <div class="well subsubsubwell hidden" id="coaches-well">
                         <h3>Instructional Coach</h3>
                         <p>Request help from an Instructional Coach with your instructional or assessment questions.</p>
-                        <button class="btn btn-primary" id="coaches-submit-btn" onclick="">Request</button>
+                        <button class="btn btn-success" id="coaches-submit-btn" onclick="window.open('mailto:phsinstc@psd1.org','_blank')">Request</button>
                     </div>
                     <div class="well subsubsubwell hidden" id="sped-well">
                         <h3>Special Education</h3>
@@ -281,12 +287,12 @@
                         <h3>Translation</h3>
                         <p>Request help with getting instructional materials translated.</p>
                         <button class="btn btn-success" id="trans-help-btn" onclick="window.open('https://liveedupsd1.sharepoint.com/:w:/s/PHS/ERdtlqDdd5JHpSBDdINM9q4BdKsT4Wse89j7wBgcQov8iQ?e=zx9zhE','_blank')">Spanish</button>
-                        <button class="btn btn-primary" id="trans-submit-btn" onclick="">Russian</button>
+                        <button class="btn btn-success" id="trans-submit-btn" onclick="window.open('mailto:pcampos@psd1.org?subject=Russian%20Translation','_blank')">Russian</button>
                     </div>
                     <div class="well subsubsubwell hidden" id="ml-well">
                         <h3>Multilingual Coordinator</h3>
                         <p>Request help from the Multilingual Coordinator in with instructional or assessment practices for Multilingual students.</p>
-                        <button class="btn btn-primary" id="ml-submit-btn" onclick="">Request</button>
+                        <button class="btn btn-success" id="ml-submit-btn" onclick="window.open('mailto:gsuarez@psd1.org','_blank')">Request</button>
                     </div>
                 </div>
 
@@ -303,7 +309,7 @@
                         <h3>Classroom Supplies</h3>
                         <p>Request supplies for your classroom, place an order, or request reimbusement. </p>
                         <button class="btn btn-success" id="supplies-submit-btn" onclick="window.open('https://liveedupsd1.sharepoint.com/sites/PHS/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2FPHS%2FSiteAssets%2FSitePages%2FPHS%2FSupply%20Form%20%2D%20Staff%20revised%2009%2E2018%2Epdf&parent=%2Fsites%2FPHS%2FSiteAssets%2FSitePages%2FPHS','_blank')">Request</button>
-                        <button class="btn btn-primary" id="order-submit-btn" onclick="">Office Depot</button>
+                        <button class="btn btn-success" id="order-submit-btn" onclick="window.open('https://liveedupsd1.sharepoint.com/:w:/s/PHS/EXWrljYMKAhAngwtyMvagmEBFC0bNbrd0aHHSuHeIkiXQA?e=jNBSL1','_blank')">Office Depot</button>
                         <button class="btn btn-success" id="claim-submit-btn" onclick="window.open('https://liveedupsd1.sharepoint.com/:x:/r/sites/PHS/_layouts/15/Doc.aspx?sourcedoc=%7B03E12EC7-4136-4C39-AA51-DD4CE651E88C%7D&file=District%20Claim%20Form%20.xlsx&action=default&mobileredirect=true','_blank')">District Claim Form</button>
                     </div>
                     <div class="well subsubsubwell hidden" id="sub-well">
@@ -318,10 +324,12 @@
 
 
 
+
             <!--Behavior-->
             <div class="well subwell hidden" id="behav-well">
                 <button class="btn btn-danger" id="security-btn" onclick="security()">Security</button>
                 <button class="btn btn-primary" id="bis-btn" onclick="bis()">Behavior Specialists</button>
+                <button class="btn btn-primary" id="citizenship-btn" onclick="citizenship()">Citizenship</button>
                 <button class="btn btn-primary" id="norms-btn" onclick="norms()">Norms Poster</button>
                 <button class="btn btn-primary" id="ref-btn" onclick="ref()">Referral</button>
                 <button class="btn btn-primary" id="traffic-btn" onclick="traffic()">Traffic Light</button>
@@ -332,7 +340,8 @@
                 <div class="well subsubwell hidden" id="bis-well">
                     <h3>Behavior Specialists</h3>
                     <p>Request help from the Behavior Team with classroom management strategies or to reccomend a student for additional behavior supports.</p>
-                    <button class="btn btn-primary" id="bis-submit-btn" onclick="">Request</button>
+                    <button class="btn btn-success" id="bis-submit-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHfy0KTDzrW9ConRBXrWiaVxURFhEQjRVTTlJQVVQMDhSNjRDOTJHWFo3SCQlQCNjPTEu','_blank')">Request</button>
+                    <button class="btn btn-success" id="bis-submit-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHa_Ub9Map5lDud5FT5IHN7RUMjkwMFhFUzdCU1Y4MVNXUzNFSDBJTEFEVi4u','_blank')">Reccomend Student</button>
                 </div>
                 <div class="well subsubwell hidden" id="ref-well">
                     <h3>Referral</h3>
@@ -347,9 +356,16 @@
                 <div class="well subsubwell hidden" id="norms-well">
                     <h3>Behavior Norms Poster</h3>
                     <p>Request a Bulldog Behavior Norms poster for your room.</p>
-                    <button class="btn btn-primary" id="norms-submit-btn" onclick="window.open('','_blank')">Request</button>
+                    <button class="btn btn-success" id="norms-submit-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHfy0KTDzrW9ConRBXrWiaVxUOFVLNjlUTTFCUU1aVEFGWEk0RjZSR1RCSyQlQCNjPTEu','_blank')">Request</button>
+                </div>
+                <div class="well subsubwell hidden" id="citizenship-well">
+                    <h3>Citizenship Award Nomination</h3>
+                    <p>Recognize a student for doing something above and beyond to positively impact others.</p>
+                    <button class="btn btn-success" id="citizenship-submit-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHfy0KTDzrW9ConRBXrWiaVxUQlNGSjdBWUsyQzNDR0NaTVU4UEFVWVZVVCQlQCNjPTEu','_blank')">Nominate</button>
                 </div>
             </div>
+
+
 
 
             <!--Facility-->
@@ -366,7 +382,7 @@
                 <div class="well subsubwell hidden" id="mtnc-well">
                     <h3>Maintenance Request</h3>
                     <p>Request support from maintenance with facilities or equipment.</p>
-                    <button class="btn btn-primary" id="mtnc-submit-btn" onclick="">Request</button>
+                    <button class="btn btn-success" id="mtnc-submit-btn" onclick="window.open('mailto:omontano@psd1.org?subject=Maintenance','_blank')">Request</button>
                 </div>
                 <div class="well subsubwell hidden" id="facUse-well">
                     <h3>Facility Use Request</h3>
@@ -376,21 +392,11 @@
                 <div class="well subsubwell hidden" id="safe-well">
                     <h3>Safety Issue</h3>
                     <p>Report a safety issue to the Safety Team.</p>
-                    <button class="btn btn-primary" id="safe-submit-btn" onclick="">Report</button>
+                    <button class="btn btn-success" id="safe-submit-btn" onclick="window.open('mailto:gdomingos@psd1.org,jerickson@psd1.org?subject=Safety%20Concern','_blank')">Report</button>
                 </div>
             </div>
 
 
-            <!--Tech-->
-            <div class="well subwell hidden" id="tech-well">
-                <button class="btn btn-primary" id="helpdesk-btn" onclick="helpdesk()">Helpdesk</button>
-
-                <div class="well subsubwell hidden" id="helpdesk-well">
-                    <h3>Helpdesk</h3>
-                    <p>Request help from Helpdesk with any technology needs. Dial 6710 or click below to send an email. Be sure to include your room and computer number.</p>
-                    <button class="btn btn-success" id="tech-submit-btn" onclick="window.open('mailto:helpdesk@psd1.org')">Email</button>
-                </div>
-            </div>
 
 
 
@@ -403,12 +409,12 @@
                 <div class="well subsubwell hidden" id="yb-well">
                     <h3>Yearbook Coverage</h3>
                     <p>Request Yearbook coverage of your event.</p>
-                    <button class="btn btn-primary" id="yb-submit-btn" onclick="">Request</button>
+                    <button class="btn btn-success" id="yb-submit-btn" onclick="window.open('mailto:svidrio@psd1.org?subject=Yearbook%20Coverage','_blank')">Request</button>
                 </div>
                 <div class="well subsubwell hidden" id="announce-well">
                     <h3>Announcements</h3>
                     <p>Submit an announcemnt for the Bulldog Bulletin.</p>
-                    <button class="btn btn-primary" id="announce-submit-btn" onclick="">Submit</button>
+                    <button class="btn btn-success" id="announce-submit-btn" onclick="window.open('mailto:nehernandez@PSD1.org?subject=Bulletin%20Announcement','_blank')">Submit</button>
                 </div>
                 <div class="well subsubwell hidden" id="sharepoint-well">
                     <h3>Sharepoint Request</h3>
@@ -419,6 +425,20 @@
                     <h3>Robocall Request</h3>
                     <p>Request bulk communication to students/families through email, phone, text, Facebook, website, or reader board.</p>
                     <button class="btn btn-success" id="robocall-submit-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHavNeLY6stZPvLk4q4CAP6RUOUZQQTNUNVVVMEZDT1g5SVk5T1VZVk9JUC4u','_blank')">Request</button>
+                </div>
+            </div>
+
+
+
+
+            <!--Tech-->
+            <div class="well subwell hidden" id="tech-well">
+                <button class="btn btn-primary" id="helpdesk-btn" onclick="helpdesk()">Helpdesk</button>
+
+                <div class="well subsubwell hidden" id="helpdesk-well">
+                    <h3>Helpdesk</h3>
+                    <p>Request help from Helpdesk with any technology needs. Dial 6710 or click below to send an email. Be sure to include your room and computer number.</p>
+                    <button class="btn btn-success" id="tech-submit-btn" onclick="window.open('mailto:helpdesk@psd1.org')">Email</button>
                 </div>
             </div>
         </div>
