@@ -219,14 +219,18 @@
             display: none;
         }
 
+        .btn {
+            margin-bottom: 3px;
+        }
+
         .well {
             display: inherit;
             padding-right: 3px;
             margin-bottom: 1px;
         }
 
-        .btn {
-            margin-bottom: 3px;
+        .topwell {
+            padding-right: 20px
         }
 
         .subwell {
@@ -253,7 +257,7 @@
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
             box-shadow: 0px -3px 5px #555;
-            padding: 5px;
+            padding: 12px 5px 5px 5px;
             background-color: #f2f2f2;
         }
 
@@ -304,7 +308,7 @@
 
 
         <!--Step 1-->
-        <div class="well" id="step1">
+        <div class="well topwell" id="step1">
             <h2>What do you need help with?</h2>
             <button class="btn btn-default" id="academic-btn" onclick="academic()">Academic</button>
             <button class="btn btn-default" id="behav-btn" onclick="behav()">Behavior</button>
@@ -494,7 +498,8 @@
         </div>
     </div>
 
-    <div id="counter"></div>
+    <!--
+<div id="counter"></div>
     <script>
         var n = localStorage.getItem('on_load_counter');
         if (n === null) {
@@ -505,10 +510,11 @@
         document.getElementById('counter').innerHTML = n;
 
     </script>
+-->
 
     <!--Footer-->
     <div class="fixed">
-        <div class="container" style="max-width: 600px">
+        <div class="container" style="max-width: 700px">
             <div class="footerbox">
                 <p class="footer">See something missing or wrong? Please complete <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHfy0KTDzrW9ConRBXrWiaVxUQlRRSElLVk01MkdUNDNVMDZHTE03UTBORyQlQCNjPTEu" target="_blank">this form</a> to help improve this page.</p>
             </div>
