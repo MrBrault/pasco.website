@@ -30,6 +30,20 @@ let anchor = [
     '<a href="../ashley151"><h4>Click here to see another portfolio</h4></a>',
     '<a href="../ronny001"><h4>Click here to see another portfolio</h4></a>',
     '<a href="../michael260"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../maely984"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../kevin247"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../keano703"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../keira524"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../exael446"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../daniela077"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../cassius001"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../abizael001"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../yahir710"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../venezia719"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../taryn900"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../uriel783"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../oscar254"><h4>Click here to see another portfolio</h4></a>',
+    '<a href="../nancy402"><h4>Click here to see another portfolio</h4></a>',
 ]
 
 var rand = Math.floor(Math.random() * anchor.length);
