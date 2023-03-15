@@ -44,6 +44,8 @@
             document.getElementById("norms-well").classList.add("hidden");
             document.getElementById("safe-well").classList.add("hidden");
             document.getElementById("citizenship-well").classList.add("hidden");
+            document.getElementById("pedLabel-well").classList.add("hidden");
+            document.getElementById("bMaterials-well").classList.add("hidden");
         }
 
 
@@ -142,21 +144,36 @@
             document.getElementById("behav-well").classList.remove("hidden");
             document.getElementById("ref-well").classList.remove("hidden");
         }
-        var traffic = function() {
-            hideAll()
-            document.getElementById("behav-well").classList.remove("hidden");
-            document.getElementById("traffic-well").classList.remove("hidden");
-        }
-        var norms = function() {
-            hideAll()
-            document.getElementById("behav-well").classList.remove("hidden");
-            document.getElementById("norms-well").classList.remove("hidden");
-        }
         var citizenship = function() {
             hideAll()
             document.getElementById("behav-well").classList.remove("hidden");
             document.getElementById("citizenship-well").classList.remove("hidden");
         }
+        var bMaterials = function() {
+            hideAll()
+            document.getElementById("behav-well").classList.remove("hidden");
+            document.getElementById("bMaterials-well").classList.remove("hidden");
+        }
+        var traffic = function() {
+            hideAll()
+            document.getElementById("behav-well").classList.remove("hidden");
+            document.getElementById("bMaterials-well").classList.remove("hidden");
+            document.getElementById("traffic-well").classList.remove("hidden");
+        }
+        var norms = function() {
+            hideAll()
+            document.getElementById("behav-well").classList.remove("hidden");
+            document.getElementById("bMaterials-well").classList.remove("hidden");
+            document.getElementById("norms-well").classList.remove("hidden");
+        }
+        var pedLabel = function() {
+            hideAll()
+            document.getElementById("behav-well").classList.remove("hidden");
+            document.getElementById("bMaterials-well").classList.remove("hidden");
+            document.getElementById("pedLabel-well").classList.remove("hidden");
+        }
+
+
 
 
         //Facility Functions
@@ -384,9 +401,8 @@
                 <button class="btn btn-danger" id="security-btn" onclick="security()">Security</button>
                 <button class="btn btn-default" id="bis-btn" onclick="bis()">Behavior Specialists</button>
                 <button class="btn btn-default" id="citizenship-btn" onclick="citizenship()">Citizenship</button>
-                <button class="btn btn-default" id="norms-btn" onclick="norms()">Norms Poster</button>
+                <button class="btn btn-default" id="bMaterials-btn" onclick="bMaterials()">Materials</button>
                 <button class="btn btn-default" id="ref-btn" onclick="ref()">Referral</button>
-                <button class="btn btn-default" id="traffic-btn" onclick="traffic()">Traffic Light</button>
                 <div class="well subsubwell hidden" id="security-well">
                     <h3>Security</h3>
                     <p>Call Security - Dial <span class="mono">3575</span></p><br>
@@ -402,20 +418,35 @@
                     <p>Referral Flowchart</p>
                     <button class="btn btn-success" id="ref-submit-btn" onclick="window.open('http://phs.dog/flow','_blank')">Flowchart</button>
                 </div>
-                <div class="well subsubwell hidden" id="traffic-well">
-                    <h3>Traffic Light Poster</h3>
-                    <p>Request a traffic light poster for communicating device expectations to sudents.</p>
-                    <button class="btn btn-success" id="traffic-submit-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHfy0KTDzrW9ConRBXrWiaVxUMFI2SlZCMzE0N1pKUTFPN0JNQVNBUTFIOCQlQCNjPTEu','_blank')">Request</button>
-                </div>
-                <div class="well subsubwell hidden" id="norms-well">
-                    <h3>Behavior Norms Poster</h3>
-                    <p>Request a Bulldog Behavior Norms poster for your room.</p>
-                    <button class="btn btn-success" id="norms-submit-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHfy0KTDzrW9ConRBXrWiaVxUOFVLNjlUTTFCUU1aVEFGWEk0RjZSR1RCSyQlQCNjPTEu','_blank')">Request</button>
+                <div class="well subsubwell hidden" id="bMaterials-well">
+                    <button class="btn btn-default" id="norms-btn" onclick="norms()">Norms Poster</button>
+                    <button class="btn btn-default" id="pedLabel-btn" onclick="pedLabel()">Student Device Label</button>
+                    <button class="btn btn-default" id="traffic-btn" onclick="traffic()">Traffic Light</button>
+                    <div class="well subsubsubwell hidden" id="traffic-well">
+                        <h3>Traffic Light Poster</h3>
+                        <p>Request a traffic light poster for communicating device expectations to sudents.</p>
+                        <button class="btn btn-success" id="traffic-submit-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHfy0KTDzrW9ConRBXrWiaVxUMFI2SlZCMzE0N1pKUTFPN0JNQVNBUTFIOCQlQCNjPTEu','_blank')">Request</button>
+                    </div>
+                    <div class="well subsubsubwell hidden" id="norms-well">
+                        <h3>Behavior Norms Poster</h3>
+                        <p>Request a Bulldog Behavior Norms poster for your room.</p>
+                        <button class="btn btn-success" id="norms-submit-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHfy0KTDzrW9ConRBXrWiaVxUOFVLNjlUTTFCUU1aVEFGWEk0RjZSR1RCSyQlQCNjPTEu','_blank')">Request</button>
+                    </div>
+                    <div class="well subsubsubwell hidden" id="pedLabel-well">
+                        <h3>Student Device Label</h3>
+                        <p>Request more Student Device Labels or bags for enforcing your Personal Electronic Device expectations.</p>
+                        <button class="btn btn-success" id="traffic-submit-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHfy0KTDzrW9ConRBXrWiaVxUME5GUzhEWVdTUTdBNDVOVVpCSERaVFNLOSQlQCNjPTEu','_blank')">Request</button>
+                    </div>
                 </div>
                 <div class="well subsubwell hidden" id="citizenship-well">
                     <h3>Citizenship Award Nomination</h3>
                     <p>Please help us by nominating students who have overcome obstacles, or you feel should be honored for their character. See nomination criteria <a href="https://liveedupsd1-my.sharepoint.com/:b:/g/personal/nehernandez_psd1_org/EeSWVMVDWL5Mh4Ce-MLey9EBTOuEUA1g2p83u3OmhwU6IA?e=5gwHEB" target="_blank">here</a>.</p>
                     <button class="btn btn-success" id="citizenship-submit-btn" onclick="window.open('https://forms.office.com/r/Jmikgj2U02','_blank')">Nominate</button>
+                </div>
+                <div class="well subsubwell hidden" id="pedLabel-well">
+                    <h3>Student Device Label</h3>
+                    <p>Request more Student Device Labels or bags for enforcing your Personal Electronic Device expectations.</p>
+                    <button class="btn btn-success" id="traffic-submit-btn" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=CnGXhcFG7kylEJpMNl4IHfy0KTDzrW9ConRBXrWiaVxUME5GUzhEWVdTUTdBNDVOVVpCSERaVFNLOSQlQCNjPTEu','_blank')">Request</button>
                 </div>
             </div>
 
