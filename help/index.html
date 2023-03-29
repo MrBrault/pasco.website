@@ -46,6 +46,7 @@
             document.getElementById("citizenship-well").classList.add("hidden");
             document.getElementById("pedLabel-well").classList.add("hidden");
             document.getElementById("bMaterials-well").classList.add("hidden");
+            document.getElementById("conf-well").classList.add("hidden");
         }
 
 
@@ -128,6 +129,7 @@
         }
 
 
+
         //Behavior Functions
         var security = function() {
             hideAll()
@@ -196,6 +198,11 @@
             hideAll()
             document.getElementById("fac-well").classList.remove("hidden");
             document.getElementById("safe-well").classList.remove("hidden");
+        }
+        var conf = function() {
+            hideAll()
+            document.getElementById("fac-well").classList.remove("hidden");
+            document.getElementById("conf-well").classList.remove("hidden");
         }
 
 
@@ -458,6 +465,7 @@
                 <button class="btn btn-default" id="hotcold-btn" onclick="hotcold()">Hot/Cold</button>
                 <button class="btn btn-default" id="facUse-btn" onclick="facUse()">Facility Use</button>
                 <button class="btn btn-default" id="mtnc-btn" onclick="mtnc()">Maintenance</button>
+                <button class="btn btn-default" id="conf-btn" onclick="conf()">Reserve Room</button>
                 <button class="btn btn-default" id="safe-btn" onclick="safe()">Safety Issues</button>
                 <div class="well subsubwell hidden" id="hotcold-well">
                     <h3>Hot/cold report</h3>
@@ -478,6 +486,11 @@
                     <h3>Safety Issue</h3>
                     <p>Report a safety issue to the Safety Team.</p>
                     <button class="btn btn-success" id="safe-submit-btn" onclick="window.open('mailto:gdomingos@psd1.org,jerickson@psd1.org?subject=Safety%20Concern','_blank')">Report</button>
+                </div>
+                <div class="well subsubwell hidden" id="conf-well">
+                    <h3>Reserve a Room</h3>
+                    <p>Reserve a meeting room in the main office - PD Conference room, Main Conference, or Room 116.</p>
+                    <button class="btn btn-success" id="conf-submit-btn" onclick="window.open('mailto:carangure@psd1.org?subject=Reserve%20Room','_blank')">Reserve</button>
                 </div>
             </div>
 
