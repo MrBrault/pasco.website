@@ -1,0 +1,520 @@
+let abizael001 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let adriana012 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let alexander175 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let averie765 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let averie765 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let ayleen681 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let briana009 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let carlos460 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let cassius001 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let citlaly001 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let daniel031 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let daniela077 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let david005 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let david866 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let elizabeth592 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let ellie329 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let evelynjocelyn001 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let exael446 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let imajyn001 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let isaac603 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let jessica132 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let jesus019 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let jose107 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let julian941 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let keano703 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let keegan839 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let keira524 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let kevin247 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let kevin632 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let laiza286 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let luis043 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let madden003 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let maely984 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let marisol575 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let michael260 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let nancy402 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let noe399 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let odalis001 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let olivia568 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let oscar254 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let oscar400 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let paulina102 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let ronny001 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let rosa353 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let ruben135 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let taryn900 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let tven590 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let uriel783 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let venezia719 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let yahir710 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let yasmine743 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
+let yuki001 = {
+    "photo1": true,
+    "photo2": false,
+    "photo3": false,
+    "photo4": false,
+    "web1": false,
+    "web2": false,
+    "animation": false,
+    "design": false
+};
