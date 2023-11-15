@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://pasco.website/photo1/portfolio.css">
+    <link rel="stylesheet" href="portfolio.css">
 
+
+    <script src="portfolio.js"></script>
 
 
 
@@ -19,45 +21,167 @@
     <div class="container">
 
         <div class="jumbotron">
-            <h1>Photography 1 Portfolio</h1>
+            <h1 id="jumbo">Student Portfolio</h1>
             <div id="link">
                 <h4>NOT WORKING</h4>
             </div>
 
-
-            <script>
-            let anchor = [
-    '<a href="http://pasco.website/photo1/david005"><h4>Click here to see a student portfolio</h4></a>',
-    '<a href="http://pasco.website/photo1/jessica132"><h4>Click here to see a student portfolio</h4></a>',
-    '<a href="http://pasco.website/photo1/yasmine743"><h4>Click here to see a student portfolio</h4></a>',
-    '<a href="http://pasco.website/photo1/tven590"><h4>Click here to see a student portfolio</h4></a>',
-    '<a href="http://pasco.website/photo1/briana009"><h4>Click here to see a student portfolio</h4></a>',
-    '<a href="http://pasco.website/photo1/carlos460"><h4>Click here to see a student portfolio</h4></a>',
-    '<a href="http://pasco.website/photo1/citlaly001"><h4>Click here to see a student portfolio</h4></a>',
-    '<a href="http://pasco.website/photo1/jesus019"><h4>Click here to see a student portfolio</h4></a>',
-    '<a href="http://pasco.website/photo1/odalis001"><h4>Click here to see a student portfolio</h4></a>',
-    '<a href="http://pasco.website/photo1/jose107"><h4>Click here to see a student portfolio</h4></a>',
-    '<a href="http://pasco.website/photo1/ellie329"><h4>Click here to see a student portfolio</h4></a>',
-    '<a href="http://pasco.website/photo1/imajyn001"><h4>Click here to see a student portfolio</h4></a>',
-    '<a href="http://pasco.website/photo1/rosa353"><h4>Click here to see a student portfolio</h4></a>',
-]
-
-var rand = Math.floor(Math.random() * anchor.length);
-
-document.getElementById("link").innerHTML = anchor[rand];
-            
-            </script>
-
-
-
         </div>
 
+        <div class="well" id="photo1">
+            <h3>Composition</h3>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p1-01" src="p1-01.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Texture</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p1-02" src="p1-02.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Creative Angles</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p1-03" src="p1-03.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Framing</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p1-04" src="p1-04.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Leading Lines</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p1-05" src="p1-05.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Rule of Thirds</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p1-06" src="p1-06.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Rule of Space</h3>
+                </div>
+            </div>
+
+            <br>
+            <h2>Exposure</h2>
+
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p1-07" src="p1-07.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Aperture</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p1-08" src="p1-08.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Shutter Speed</h3>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+
+            <br>
+            <h2>Editing</h2>
+
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p1-09" src="p1-09.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>True to Life</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p1-10" src="p1-10.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Creative</h3>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+
+        <div class="well" id="photo2">
+            <h2>Composition</h2>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p2-01" src="p2-01.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Texture</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p2-02" src="p2-02.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Creative Angles</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p2-03" src="p2-03.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Framing</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p2-04" src="p2-04.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Leading Lines</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p2-05" src="p2-05.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Rule of Thirds</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p2-06" src="p2-06.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Rule of Space</h3>
+                </div>
+            </div>
+
+            <br>
+            <h2>Exposure</h2>
+
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p2-07" src="p2-07.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Aperture</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p2-08" src="p2-08.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Shutter Speed</h3>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+
+            <br>
+            <h2>Editing</h2>
+
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p2-09" src="p2-09.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>True to Life</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="p2-10" src="p2-10.jpg" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Creative</h3>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+
+        <div class="well" id="animation">
+            <h2>Animation Principles</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="a-01" src="a-01.gif" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Squash and Stretch</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="a-02" src="a-02.gif" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Secondary Action</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img class="thumbnail" id="a-03" src="a-03.gif" onerror='this.onerror = null; this.src="../none.jpg"'>
+                    <h3>Anticipation</h3>
+                </div>
+            </div>
+        </div>
+
+
         <div id="footer"></div>
-
-
-
-
     </div>
+
 
 
 
