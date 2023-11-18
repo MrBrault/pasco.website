@@ -7,25 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="unified/portfolio.css">
+    <link rel="stylesheet" href="portfolio/portfolio.css">
 
 
-    <script src="unified/portfolio.js"></script>
+    <script src="portfolio/portfolio.css"></script>
 
 
     <script>
         var studentUrl = window.location.href;
         var studentName = studentUrl.substring(21);
-        document.getElementById("p1-01").src = studentUrl + "/unified/student/p1-01.jpg"
-        document.getElementById("p1-02").src = studentUrl + "unified/student/p1-02.jpg"
-        document.getElementById("p1-03").src = studentUrl + "unified/student/p1-03.jpg"
-        document.getElementById("p1-04").src = studentUrl + "unified/student/p1-04.jpg"
-        document.getElementById("p1-05").src = studentUrl + "unified/student/p1-05.jpg"
-        document.getElementById("p1-06").src = studentUrl + "unified/student/p1-06.jpg"
-        document.getElementById("p1-07").src = studentUrl + "unified/student/p1-07.jpg"
-        document.getElementById("p1-08").src = studentUrl + "unified/student/p1-08.jpg"
-        document.getElementById("p1-09").src = studentUrl + "unified/student/p1-09.jpg"
-        document.getElementById("p1-10").src = studentUrl + "unified/student/p1-10.jpg"
+        document.getElementById("demo").innerHTML = studentUrl;
+        document.getElementById("p1-01").src = "/portfolio/student/" + studentUrl + "/p1-01.jpg";
+        document.getElementById("p1-02").src = "/portfolio/student/" + studentUrl + "/p1-02.jpg";
+        document.getElementById("p1-03").src = "/portfolio/student/" + studentUrl + "/p1-03.jpg";
+        document.getElementById("p1-04").src = "/portfolio/student/" + studentUrl + "/p1-04.jpg";
+        document.getElementById("p1-05").src = "/portfolio/student/" + studentUrl + "/p1-05.jpg";
+        document.getElementById("p1-06").src = "/portfolio/student/" + studentUrl + "/p1-06.jpg";
+        document.getElementById("p1-07").src = "/portfolio/student/" + studentUrl + "/p1-07.jpg";
+        document.getElementById("p1-08").src = "/portfolio/student/" + studentUrl + "/p1-08.jpg";
+        document.getElementById("p1-09").src = "/portfolio/student/" + studentUrl + "/p1-09.jpg";
+        document.getElementById("p1-10").src = "/portfolio/student/" + studentUrl + "/p1-10.jpg";
 
     </script>
 
@@ -39,9 +40,9 @@
         <div class="jumbotron">
             <h1 id="jumbo">Student Portfolio</h1>
             <div id="link">
-                <h4>NOT WORKING YET</h4>
+                <h4>NOT YET WORKING</h4>
             </div>
-
+            <p id="demo"></p>
         </div>
 
         <div class="well" id="photo1">
