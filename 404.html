@@ -10,23 +10,33 @@
     <link rel="stylesheet" href="portfolio/portfolio.css">
 
 
-    <script src="portfolio/portfolio.css"></script>
-
 
     <script>
-        var studentUrl = window.location.href;
-        var studentName = studentUrl.substring(21);
-        document.getElementById("demo").innerHTML = studentUrl;
-        document.getElementById("p1-01").src = "/portfolio/student/" + studentUrl + "/p1-01.jpg";
-        document.getElementById("p1-02").src = "/portfolio/student/" + studentUrl + "/p1-02.jpg";
-        document.getElementById("p1-03").src = "/portfolio/student/" + studentUrl + "/p1-03.jpg";
-        document.getElementById("p1-04").src = "/portfolio/student/" + studentUrl + "/p1-04.jpg";
-        document.getElementById("p1-05").src = "/portfolio/student/" + studentUrl + "/p1-05.jpg";
-        document.getElementById("p1-06").src = "/portfolio/student/" + studentUrl + "/p1-06.jpg";
-        document.getElementById("p1-07").src = "/portfolio/student/" + studentUrl + "/p1-07.jpg";
-        document.getElementById("p1-08").src = "/portfolio/student/" + studentUrl + "/p1-08.jpg";
-        document.getElementById("p1-09").src = "/portfolio/student/" + studentUrl + "/p1-09.jpg";
-        document.getElementById("p1-10").src = "/portfolio/student/" + studentUrl + "/p1-10.jpg";
+        let studentUrl = window.location.href;
+        let studentName = studentUrl.substring(21);
+        document.getElementById("demo").innerHTML = "Student:" + studentName;
+
+        let p101 = "/portfolio/student/" + studentName + "/p1-01.jpg";
+        let p102 = "/portfolio/student/" + studentName + "/p1-02.jpg";
+        let p103 = "/portfolio/student/" + studentName + "/p1-03.jpg";
+        let p104 = "/portfolio/student/" + studentName + "/p1-04.jpg";
+        let p105 = "/portfolio/student/" + studentName + "/p1-05.jpg";
+        let p106 = "/portfolio/student/" + studentName + "/p1-06.jpg";
+        let p107 = "/portfolio/student/" + studentName + "/p1-07.jpg";
+        let p108 = "/portfolio/student/" + studentName + "/p1-08.jpg";
+        let p109 = "/portfolio/student/" + studentName + "/p1-09.jpg";
+        let p110 = "/portfolio/student/" + studentName + "/p1-10.jpg";
+
+        document.getElementById("p1-01").src = p101;
+        document.getElementById("p1-02").src = p102;
+        document.getElementById("p1-03").src = p103;
+        document.getElementById("p1-04").src = p104;
+        document.getElementById("p1-05").src = p105;
+        document.getElementById("p1-06").src = p106;
+        document.getElementById("p1-07").src = p107;
+        document.getElementById("p1-08").src = p108;
+        document.getElementById("p1-09").src = p109;
+        document.getElementById("p1-10").src = p110;
 
     </script>
 
@@ -42,7 +52,7 @@
             <div id="link">
                 <h4>NOT YET WORKING</h4>
             </div>
-            <p id="demo"></p>
+            <p id="demo">No student</p>
         </div>
 
         <div class="well" id="photo1">
@@ -51,30 +61,30 @@
 
             <div class="row">
                 <div class="col-sm-4">
-                    <img class="thumbnail" id="p1-01" src="p1-01.jpg" onerror='this.onerror = null; this.src="none.jpg"'>
+                    <img class="thumbnail" id="p1-01" src="none.jpg">
                     <h4>Texture</h4>
                 </div>
                 <div class="col-sm-4">
-                    <img class="thumbnail" id="p1-02" src="p1-02.jpg" onerror='this.onerror = null; this.src="none.jpg"'>
+                    <img class="thumbnail" id="p1-02" src="none.jpg">
                     <h4>Creative Angles</h4>
                 </div>
                 <div class="col-sm-4">
-                    <img class="thumbnail" id="p1-03" src="p1-03.jpg" onerror='this.onerror = null; this.src="none.jpg"'>
+                    <img class="thumbnail" id="p1-03" src="none.jpg">
                     <h4>Framing</h4>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-sm-4">
-                    <img class="thumbnail" id="p1-04" src="p1-04.jpg" onerror='this.onerror = null; this.src="none.jpg"'>
+                    <img class="thumbnail" id="p1-04" src="none.jpg">
                     <h4>Leading Lines</h4>
                 </div>
                 <div class="col-sm-4">
-                    <img class="thumbnail" id="p1-05" src="p1-05.jpg" onerror='this.onerror = null; this.src="none.jpg"'>
+                    <img class="thumbnail" id="p1-05" src="none.jpg">
                     <h4>Rule of Thirds</h4>
                 </div>
                 <div class="col-sm-4">
-                    <img class="thumbnail" id="p1-06" src="p1-06.jpg" onerror='this.onerror = null; this.src="none.jpg"'>
+                    <img class="thumbnail" id="p1-06" src="none.jpg">
                     <h4>Rule of Space</h4>
                 </div>
             </div>
@@ -85,11 +95,11 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-4">
-                    <img class="thumbnail" id="p1-07" src="p1-07.jpg" onerror='this.onerror = null; this.src="none.jpg"'>
+                    <img class="thumbnail" id="p1-07" src="none.jpg">
                     <h4>Aperture</h4>
                 </div>
                 <div class="col-sm-4">
-                    <img class="thumbnail" id="p1-08" src="p1-08.jpg" onerror='this.onerror = null; this.src="none.jpg"'>
+                    <img class="thumbnail" id="p1-08" src="none.jpg">
                     <h4>Shutter Speed</h4>
                 </div>
                 <div class="col-sm-2"></div>
@@ -101,11 +111,11 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-4">
-                    <img class="thumbnail" id="p1-09" src="p1-09.jpg" onerror='this.onerror = null; this.src="none.jpg"'>
+                    <img class="thumbnail" id="p1-09" src="none.jpg">
                     <h4>True to Life</h4>
                 </div>
                 <div class="col-sm-4">
-                    <img class="thumbnail" id="p1-10" src="p1-10.jpg" onerror='this.onerror = null; this.src="none.jpg"'>
+                    <img class="thumbnail" id="p1-10" src="none.jpg">
                     <h4>Creative</h4>
                 </div>
                 <div class="col-sm-2"></div>
